@@ -4,7 +4,8 @@
 - Used .filter() to remove an item.
 - CSS Flexbox used to align names and delete buttons horizontally.
 - Implemented strikethrough on click instead of delete
+- Save to Browser (LocalStorage)
 
 ## Next:
 
-- Save to Browser (LocalStorage)
+Creating a To-do app
