@@ -1,5 +1,33 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full height of the screen */
+  background-color: #92b1d5;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .App-logo {
